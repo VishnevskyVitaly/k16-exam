@@ -120,6 +120,9 @@ p {
     border-right: none;
     border-bottom-color: #bfbdd9;
 }
+.search:focus {
+    outline: none;
+}
 .button-header {
     background-color: #fff;
     border: none;
