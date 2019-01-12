@@ -143,3 +143,55 @@ img {
 .slider {
     padding-bottom: 85px;
 }
+
+/* Стили для слайдера */
+
+/* левая стрелка */
+
+.slick-prev {
+    top: 82%;
+    left: 25px;
+    z-index: 1;
+    background-color: #fff;
+    width: 32px;
+    height: 12px;
+}
+.slick-prev:before {
+    content: '';
+}
+.slick-prev:hover {
+    top: 82%;
+    left: 25px;
+    z-index: 1;
+    background-color: #fff;
+    width: 32px;
+    height: 12px;
+}
+.slick-prev:focus {
+    background-color: #01983b;
+}
+
+/* правая стрелка */
+
+.slick-next {
+    top: 82%;
+    left: 65px;
+    z-index: 1;
+    background-color: #fff;
+    width: 32px;
+    height: 12px;
+}
+.slick-next:before {
+    content: '';
+}
+.slick-next:hover {
+    top: 82%;
+    left: 65px;
+    z-index: 1;
+    background-color: #fff;
+    width: 32px;
+    height: 12px;
+}
+.slick-next:focus {
+    background-color: #01983b;
+}
