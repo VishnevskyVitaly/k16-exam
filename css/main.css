@@ -32,7 +32,7 @@ p {
 /* header */
 .header {
     background-color: #01983b;
-    background-image: url("/img/pattern.png");
+    background-image: url("../img/pattern.png");
     background-repeat: repeat;
 }
 .nav-menu .nav-styles {
@@ -44,6 +44,9 @@ p {
     position: relative;
     margin-right: 42px;
     color: #fff;
+}
+.last-ch {
+    margin-right: 0;
 }
 .is-active:focus {
     color: #f40007;
@@ -96,8 +99,28 @@ p {
     right: 0;
     top: 8px;
 }
-.social-info span {
+.social-info span a {
     font-size: 1rem;
     font-weight: bold;
     color: #2c2783;
+}
+.social-info span a:hover {
+    text-decoration: underline;
+}
+.social-info span a:focus {
+    color: #000;
+}
+.form-header {
+    text-align: right;
+}
+.search {
+    width: 392px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #bfbdd9;
+}
+.button-header {
+    background-color: #fff;
+    border: none;
 }
