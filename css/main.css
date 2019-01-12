@@ -23,6 +23,11 @@ p {
     width: 980px;
     margin: 0 auto;
 }
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 /* header */
 .header {
@@ -60,4 +65,39 @@ p {
     height: 2px;
     background-color: #fff;
     bottom: -7px;
+}
+
+/* slider-news */
+.slider-news {
+    padding-top: 40px;
+}
+.logo {
+    float: left;
+}
+.social-info {
+    position: relative;
+    float: right;
+}
+.social-info p  {
+    color: #01983b;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 60px;
+}
+.in {
+    position: absolute;
+    right: 25px;
+    top: 8px;
+}
+.tw {
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+.social-info span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2c2783;
 }
