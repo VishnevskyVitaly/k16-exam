@@ -19,6 +19,9 @@ p {
     font-weight: normal;
     font-size: 14px;
 }
+img {
+    width: 100%;
+}
 .container {
     width: 980px;
     margin: 0 auto;
@@ -33,7 +36,7 @@ p {
 .header {
     background-color: #01983b;
     background-image: url("../img/pattern.png");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 }
 .nav-menu .nav-styles {
     text-transform: uppercase;
@@ -71,8 +74,12 @@ p {
 }
 
 /* slider-news */
+
 .slider-news {
     padding-top: 40px;
+    background-image: url("../img/bg/art_museum.png");
+    background-position: top;
+    background-repeat: no-repeat;
 }
 .logo {
     float: left;
@@ -126,4 +133,13 @@ p {
 .button-header {
     background-color: #fff;
     border: none;
+}
+.button-header:focus {
+    outline: none;
+}
+.mt {
+    margin-top: 10px;
+}
+.slider {
+    padding-bottom: 85px;
 }
