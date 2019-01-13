@@ -33,6 +33,7 @@ img {
 }
 
 /* header */
+
 .header {
     background-color: #01983b;
     background-image: url("../img/pattern.png");
@@ -43,9 +44,11 @@ img {
     font-size: 1rem;
     padding: 30px 0;
 }
+.nav-menu table {
+    width: 100%;
+}
 .is-active {
     position: relative;
-    margin-right: 42px;
     color: #fff;
 }
 .last-ch {
@@ -175,7 +178,7 @@ img {
     margin: 0 5px;
     padding: 0;
     cursor: pointer;
-    background-color: white;
+    background-color: #fff;
 }
 .slick-dots li:focus {
     position: relative;
