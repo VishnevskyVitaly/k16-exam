@@ -19,9 +19,6 @@ p {
     font-weight: normal;
     font-size: 14px;
 }
-img {
-    width: 100%;
-}
 .container {
     width: 980px;
     margin: 0 auto;
@@ -141,6 +138,7 @@ img {
     outline: none;
 }
 .mt {
+    position: relative;
     margin-top: 10px;
 }
 .slider {
@@ -190,4 +188,86 @@ img {
     padding: 0;
     cursor: pointer;
     background-color: #01983b;
+}
+
+/* slider text sector */
+
+.slider-text-sector {
+    position: absolute;
+    bottom: 125px;
+    display: block;
+    width: 770px;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.slider-text-sector h2 {
+    font-family: EuropeExt;
+    font-size: 1.9em;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 25px 0 3px 25px;
+}
+.slider-text-sector h3 {
+    font-family: EuropeExt;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f3f4f0;
+    margin: 15px 0 10px 25px;
+}
+
+
+/* video-block */
+
+.video-block {
+    margin-top: -30px;
+    background-image: url("../img/bg/bg-novaboard.png");
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.inform-block {
+
+}
+.logo-1 {
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 18px;
+}
+.title {
+    font-family: EuropeExt;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #073d79;
+    margin-bottom: 18px;
+}
+.iframe-video {
+    text-align: center;
+}
+.iframe-video iframe {
+    width: 576px;
+    height: 318px;
+}
+.position {
+    width: 100%;
+}
+.link-detail {
+    text-align: center;
+    margin-top: 60px;
+}
+.details {
+    font-family: EuropeExt;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 405px;
+    height: 55px;
+    color: #fff;
+    background-color: #01983b;
+    padding: 18px 42px;
+    margin-top: 45px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-align: center;
 }
