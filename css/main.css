@@ -189,6 +189,17 @@ p {
     cursor: pointer;
     background-color: #01983b;
 }
+.slick-dots li.slick-active {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 12px;
+    left: -45%;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background-color: #01983b;
+}
 
 /* slider text sector */
 
@@ -256,6 +267,7 @@ p {
 .link-detail {
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 25px;
 }
 .details {
     font-family: EuropeExt;
@@ -270,4 +282,74 @@ p {
     text-transform: uppercase;
     border-radius: 4px;
     text-align: center;
+}
+.details:hover {
+    background-color: #0cc453;
+}
+.details:focus {
+    background-color: #0e7837;
+}
+
+/* application-block */
+
+.application-block h3 {
+    font-family: EuropeExt;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 70px 0 35px 0;
+}
+.wrap-container {
+    width: 1225px;
+    margin: 0 auto;
+}
+.build-block-1, .build-block-2 {
+    width: 608px;
+    height: 310px;
+    display: inline-block;
+}
+.build-block-1 {
+    position: relative;
+    background-image: url("../img/bg/bg-build-left.png");
+}
+.overlay-effect {
+    position: absolute;
+    top: 0;
+    width: 608px;
+    height: 285px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.build-block-2 {
+    background-image: url("../img/bg/bg-build-right.png");
+}
+.build-block-1 h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: right;
+    margin: 22px 48px 25px 0;
+}
+.build-block-2 h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 22px 0px 25px 48px;
+}
+.text-edit {
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.875em;
+}
+.left-block {
+    text-align: right;
+    padding-right: 48px;
+    background-color: #01983b;
+}
+.right-block {
+    text-align: left;
+    padding-left: 48px;
+    background: #01983b;
 }
