@@ -291,7 +291,8 @@ p {
 }
 
 /* application-block */
-
+.application-block {
+}
 .application-block h3 {
     font-family: EuropeExt;
     font-size: 1.9em;
@@ -302,7 +303,7 @@ p {
 }
 .wrap-container {
     width: 1225px;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
 }
 .build-block-1, .build-block-2 {
     width: 608px;
@@ -370,4 +371,27 @@ p {
     text-align: left;
     padding-left: 48px;
     background: #01983b;
+}
+
+/* ромбы в блоке application-block */
+
+.wrapper {
+    width: 1225px;
+    margin: 0 auto
+}
+.categories {
+    display: inline-block;
+    width: 200px;
+    height: 255px;
+    text-align: center;
+}
+.name-categories {
+    font-size: 0.875em;
+    font-weight: bold;
+    color: #01983b;
+    text-transform: uppercase;
+}
+.categories:nth-child(even) {
+    vertical-align: middle;
+    margin-top: -105px;
 }
