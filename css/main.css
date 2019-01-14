@@ -314,6 +314,7 @@ p {
     background-image: url("../img/bg/bg-build-left.png");
 }
 .overlay-effect {
+    z-index: 1;
     position: absolute;
     top: 0;
     width: 608px;
@@ -321,6 +322,7 @@ p {
     background: rgba(0, 0, 0, 0.4);
 }
 .build-block-2 {
+    position: relative;
     background-image: url("../img/bg/bg-build-right.png");
 }
 .build-block-1 h3 {
@@ -329,6 +331,8 @@ p {
     font-size: 1.5em;
     text-align: right;
     margin: 22px 48px 25px 0;
+    position: relative;
+    z-index: 2;
 }
 .build-block-2 h3 {
     text-transform: uppercase;
@@ -336,12 +340,16 @@ p {
     font-size: 1.5em;
     text-align: left;
     margin: 22px 0px 25px 48px;
+    position: relative;
+    z-index: 2;
 }
 .text-edit {
     display: block;
     color: #fff;
     text-transform: uppercase;
     font-size: 0.875em;
+    position: relative;
+    z-index: 2;
 }
 .left-block {
     text-align: right;
