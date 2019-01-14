@@ -321,9 +321,19 @@ p {
     height: 285px;
     background: rgba(0, 0, 0, 0.4);
 }
+.logo-2 {
+    position: absolute;
+    bottom: 0;
+    right: 49px;
+}
 .build-block-2 {
     position: relative;
     background-image: url("../img/bg/bg-build-right.png");
+}
+.logo-2-right {
+    position: absolute;
+    bottom: 0;
+    left: 49px;
 }
 .build-block-1 h3 {
     text-transform: uppercase;
