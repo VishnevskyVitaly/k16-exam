@@ -314,7 +314,8 @@ p {
 }
 .build-block-1 {
     position: relative;
-    background-image: url("../img/bg/bg-build-left.png");
+    background-image: url("../img/bg/bg-build-left.jpg");
+    background-size: contain;
 }
 .overlay-effect {
     z-index: 1;
@@ -331,7 +332,8 @@ p {
 }
 .build-block-2 {
     position: relative;
-    background-image: url("../img/bg/bg-build-right.png");
+    background-image: url("../img/bg/bg-build-right.jpg");
+    background-size: cover;
 }
 .logo-2-right {
     position: absolute;
