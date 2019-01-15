@@ -292,6 +292,8 @@ p {
 }
 
 /* application-block */
+
+
 .application-block {
     margin-bottom: 70px;
 }
@@ -315,7 +317,8 @@ p {
 .build-block-1 {
     position: relative;
     background-image: url("../img/bg/bg-build-left.jpg");
-    background-size: contain;
+    background-size: 100%;
+    background-position: center;
 }
 .overlay-effect {
     z-index: 1;
@@ -333,7 +336,8 @@ p {
 .build-block-2 {
     position: relative;
     background-image: url("../img/bg/bg-build-right.jpg");
-    background-size: cover;
+    background-size: 100%;
+    background-position: top;
 }
 .logo-2-right {
     position: absolute;
@@ -395,14 +399,39 @@ p {
     z-index: 2;
 }
 .left-block {
+    position: relative;
     text-align: right;
-    padding: 4px 48px 2px 0;
+    padding: 4px 48px 3px 0;
     background-color: #01983b;
 }
+.left-block:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -48px;
+    display: block;
+    width: 48px;
+    height: 23px;
+    background-color: #01983b;
+    opacity: 0.5;
+}
+
 .right-block {
+    position: relative;
     text-align: left;
-    padding: 4px 0 2px 48px;
+    padding: 4px 0 3px 48px;
     background: #01983b;
+}
+.right-block:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -48px;
+    display: block;
+    width: 48px;
+    height: 23px;
+    background-color: #01983b;
+    opacity: 0.5;
 }
 
 /* ромбы в блоке application-block */
