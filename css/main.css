@@ -277,6 +277,7 @@ p {
     height: 55px;
     color: #fff;
     background-color: #01983b;
+    background-image: url("../img/pattern.png");
     padding: 18px 42px;
     margin-top: 45px;
     text-transform: uppercase;
@@ -394,4 +395,38 @@ p {
 .categories:nth-child(even) {
     vertical-align: middle;
     margin-top: -105px;
+}
+
+/* table-block */
+
+.opacity-wrapper {
+    width: 1215px;
+    height: 760px;
+    margin: 0 auto;
+}
+.logo-3 {
+    text-align: center;
+    margin: 53px 0 16px 0;
+}
+.opacity-wrapper h3 {
+    font-family: EuropeExt;
+    font-size: 1.9em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #01983b;
+}
+
+/* таблица/table */
+
+.specifications {
+    width: 100%;
+}
+.styles-th {
+    font-size: 0.875em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #01983b;
+    background-image: url("../img/pattern.png");
 }
