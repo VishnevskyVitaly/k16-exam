@@ -539,11 +539,17 @@ p {
 /* advantage-block Какие задачи решает */
 
 .advantage-block {
+    background-image: url("../img/bg/bg-advantage.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: left;
     margin-bottom: 60px;
 }
 .wrap-container-1 {
     width: 1215px;
     margin: 0 auto;
+}
+.wrap-container-1 {
 }
 .wrap-container-1 h2 {
     font-family: EuropeExt;
@@ -585,6 +591,7 @@ p {
     background-repeat: no-repeat;
     background-position: 15px;
 }
+
 .advantage .cell-2 {
     background-image: url("../img/icons/happy-smile.png");
     background-repeat: no-repeat;
