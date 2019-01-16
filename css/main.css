@@ -553,3 +553,40 @@ p {
     color: #01983b;
     margin-top: 0;
 }
+
+/* таблица advantage */
+.advantage {
+    border-spacing: 5px;
+}
+.advantage .cell-1 {
+    width: 365px;
+    font-size: 0.875em;
+    color: #fff;
+}
+.advantage .space-between {
+    width: 0;
+}
+.advantage .cell-2 {
+    width: 600px;
+    font-size: 0.875em;
+    color: #fff;
+}
+.advantage .cell-1, .cell-2 {
+    padding: 14px 10px 14px 70px;
+}
+.bg-red {
+    background-color: #ff0000;
+}
+.bg-green {
+    background-color: #01983b;
+}
+.advantage .cell-1 {
+    background-image: url("../img/icons/sad-smile.png");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+.advantage .cell-2 {
+    background-image: url("../img/icons/happy-smile.png");
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
