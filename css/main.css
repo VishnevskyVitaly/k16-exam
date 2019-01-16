@@ -413,7 +413,18 @@ p {
     width: 48px;
     height: 23px;
     background-color: #01983b;
-    opacity: 0.5;
+    opacity: 0.6;
+}
+.left-block:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -96px;
+    display: block;
+    width: 48px;
+    height: 23px;
+    background-color: #01983b;
+    opacity: 0.3;
 }
 
 .right-block {
@@ -431,7 +442,18 @@ p {
     width: 48px;
     height: 23px;
     background-color: #01983b;
-    opacity: 0.5;
+    opacity: 0.6;
+}
+.right-block:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -96px;
+    display: block;
+    width: 48px;
+    height: 23px;
+    background-color: #01983b;
+    opacity: 0.3;
 }
 
 /* ромбы в блоке application-block */
@@ -458,12 +480,13 @@ p {
 }
 
 /* table-block */
-
+.table-block {
+    margin-bottom: 50px;
+}
 .opacity-wrapper {
     width: 1215px;
     height: 873px;
     margin: 0 auto;
-
 }
 .logo-3 {
     text-align: center;
@@ -478,6 +501,7 @@ p {
 }
 
 /* таблица/table */
+
 
 .opacity-wrapper {
     border: 3px solid #e6ecf4;
@@ -509,4 +533,23 @@ p {
 }
 .styles-bg:nth-child(even) {
     background: #f2f5f7;
+}
+
+
+/* advantage-block Какие задачи решает */
+
+.advantage-block {
+    margin-bottom: 60px;
+}
+.wrap-container-1 {
+    width: 1215px;
+    margin: 0 auto;
+}
+.wrap-container-1 h2 {
+    font-family: EuropeExt;
+    font-size: 1.9em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #01983b;
+    margin-top: 0;
 }
