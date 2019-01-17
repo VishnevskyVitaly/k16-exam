@@ -559,6 +559,7 @@ p {
 }
 
 /* таблица advantage */
+
 .advantage {
     border-spacing: 5px;
 }
@@ -697,6 +698,33 @@ p {
     text-align: center;
     margin-bottom: 50px;
 }
+.link-social-in {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/icons/footer-social-in.png");
+    background-repeat: no-repeat;
+}
+.link-social-in:hover {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/icons/footer-social-in-hover.png");
+}
+.link-social-w {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/icons/footer-social-w.png");
+    background-repeat: no-repeat;
+}
+.link-social-w:hover {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/icons/footer-social-w-hover.png");
+    background-repeat: no-repeat;}
+
 .wezom-link {
     display: block;
     text-align: center;
