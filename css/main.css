@@ -484,7 +484,7 @@ p {
     margin-bottom: 50px;
 }
 .opacity-wrapper {
-    width: 1215px;
+    width: 1225px;
     height: 873px;
     margin: 0 auto;
 }
@@ -546,10 +546,8 @@ p {
     margin-bottom: 60px;
 }
 .wrap-container-1 {
-    width: 1215px;
+    width: 1225px;
     margin: 0 auto;
-}
-.wrap-container-1 {
 }
 .wrap-container-1 h2 {
     font-family: EuropeExt;
@@ -629,4 +627,81 @@ p {
 .logo-4 {
     text-align: center;
     margin-bottom: 45px;
+}
+
+/* contacts */
+
+.adress-sector {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    height: 100%;
+    background-color: #01983b;
+    background-image: url("../img/pattern.png");
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.adress-sector h3 {
+    font-family: EuropeExt;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 35px;
+}
+.adress-sector p {
+    font-size: 1.125em;
+    color: #fff;
+    line-height: 1.6;
+}
+.adress-sector .tel-email {
+    font-size: 0.875em;
+    color: #fff;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+.map-sector {
+    margin-top: -30px;
+}
+.map-sector iframe {
+    height: 338px;
+}
+
+/* footer */
+
+.footer {
+    margin-top: -5px;
+    background-color: #01983b;
+    background-image: url("../img/bg/bg-footer.png"), url("../img/pattern.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo-5 {
+    text-align: center;
+    padding-top: 25px;
+}
+.wrap-footer p, h5 {
+    text-align: center;
+    font-size: 0.875em;
+    color: #fff;
+    text-transform: uppercase;
+}
+.wrap-footer p {
+    margin: 5px 0 15px 0;
+}
+.wrap-footer h5 {
+    margin: 0 0 6px 0;
+}
+.wrap-social {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.wezom-link {
+    display: block;
+    text-align: center;
+    font-size: 0.75em;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 20px;
 }
