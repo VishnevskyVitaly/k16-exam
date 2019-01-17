@@ -542,7 +542,7 @@ p {
     background-image: url("../img/bg/bg-advantage.jpg");
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position: left;
+    background-position: -310px, left;
     margin-bottom: 60px;
 }
 .wrap-container-1 {
