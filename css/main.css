@@ -597,3 +597,36 @@ p {
     background-repeat: no-repeat;
     background-position: 15px;
 }
+
+/* certificates блок сертификаты */
+
+.certificates h3 {
+    font-family: EuropeExt;
+    font-size: 1.9em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c2783;
+}
+.lightbox-gallery {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lightbox-gallery .mr {
+    margin-right: 38px;
+}
+.lightbox-gallery .mr:last-child {
+    margin-right: 0;
+}
+.certificates h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c2783;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.logo-4 {
+    text-align: center;
+    margin-bottom: 45px;
+}
