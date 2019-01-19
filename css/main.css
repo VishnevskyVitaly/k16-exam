@@ -502,6 +502,8 @@ p {
 /* table-block */
 
 .table-block {
+    background: url("../img/bg/bg-table-left.png") left center no-repeat, url("../img/bg/bg-table-right.png") no-repeat right center;
+    background-size: 23%;
     margin-bottom: 50px;
 }
 .opacity-wrapper {
@@ -526,9 +528,11 @@ p {
 
 .opacity-wrapper {
     border: 3px solid #e6ecf4;
+    background: rgba(255,255,255,0.6);
 }
 .specifications {
     width: 100%;
+    background-color: #fff;
     border: 4px solid #d5dfec;
     border-collapse: collapse;
 }
@@ -560,10 +564,10 @@ p {
 /* advantage-block Какие задачи решает */
 
 .advantage-block {
-    background-image: url("../img/bg/bg-advantage.jpg");
+    background-image: url("../img/bg/bg-advantage.png");
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: -310px, left;
+    background-size: 62%;
+    background-position: -521px, left;
     margin-bottom: 60px;
 }
 .wrap-container-1 {
@@ -627,8 +631,6 @@ p {
     opacity: 0.3;
     margin-right: 60px;
 }
-
-
 .advantage .cell-2 {
     position: relative;
     background-image: url("../img/icons/happy-smile.png");
