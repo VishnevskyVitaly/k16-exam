@@ -564,10 +564,10 @@ p {
 /* advantage-block Какие задачи решает */
 
 .advantage-block {
-    background-image: url("../img/bg/bg-advantage.png");
+    background-image: url("../img/bg/bg-advantage1.png");
     background-repeat: no-repeat;
-    background-size: 62%;
-    background-position: -521px, left;
+    background-size: 105%;
+    background-position: -86px;
     margin-bottom: 60px;
 }
 .wrap-container-1 {
