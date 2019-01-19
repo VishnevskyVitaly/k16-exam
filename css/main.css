@@ -607,15 +607,48 @@ p {
     background-color: #01983b;
 }
 .advantage .cell-1 {
+    position: relative;
     background-image: url("../img/icons/sad-smile.png");
     background-repeat: no-repeat;
     background-position: 15px;
 }
+.advantage .cell-1::after,
+.advantage .cell-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: #ff0000;
+    opacity: 0.7;
+    right: 100%;
+}
+.advantage .cell-1::after {
+    opacity: 0.3;
+    margin-right: 60px;
+}
+
 
 .advantage .cell-2 {
+    position: relative;
     background-image: url("../img/icons/happy-smile.png");
     background-repeat: no-repeat;
     background-position: 15px;
+}
+.advantage .cell-2::after,
+.advantage .cell-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+    background-color: #01983b;
+    opacity: 0.7;
+    left: 100%;
+}
+.advantage .cell-2::after {
+    opacity: 0.3;
+    margin-left: 60px;
 }
 
 /* certificates блок сертификаты */
@@ -662,6 +695,7 @@ p {
     background-image: url("../img/pattern.png");
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    overflow: hidden;
 }
 .adress-sector h3 {
     font-family: EuropeExt;
@@ -670,6 +704,7 @@ p {
     text-transform: uppercase;
     color: #fff;
     padding-top: 35px;
+    margin-top: 0;
 }
 .adress-sector p {
     font-size: 1.125em;
@@ -680,10 +715,10 @@ p {
     font-size: 0.875em;
     color: #fff;
     line-height: 1.8;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .map-sector {
-    margin-top: -30px;
+    margin-top: -40px;
 }
 .map-sector iframe {
     height: 338px;
