@@ -502,8 +502,10 @@ p {
 /* table-block */
 
 .table-block {
-    background: url("../img/bg/bg-table-left.png") left center no-repeat, url("../img/bg/bg-table-right.png") no-repeat right center;
-    background-size: 23%;
+background-image: url("../img/bg/bg-table-block2.png");
+    background-size: 118%;
+    background-position: center;
+    background-repeat: no-repeat;
     margin-bottom: 50px;
 }
 .opacity-wrapper {
@@ -513,7 +515,8 @@ p {
 }
 .logo-3 {
     text-align: center;
-    margin: 53px 0 16px 0;
+    padding: 53px 0 16px 0;
+    background: #fff;
 }
 .opacity-wrapper h3 {
     font-family: EuropeExt;
@@ -521,6 +524,8 @@ p {
     text-align: center;
     text-transform: uppercase;
     color: #01983b;
+    margin: 0;
+    padding: 30px;
 }
 
 /* таблица/table */
@@ -564,11 +569,9 @@ p {
 /* advantage-block Какие задачи решает */
 
 .advantage-block {
-    background-image: url("../img/bg/bg-advantage1.png");
+    background-image: url("../img/bg/bg-advantage2.png");
     background-repeat: no-repeat;
-    background-size: 105%;
-    background-position: -86px;
-    margin-bottom: 60px;
+    background-size: cover;
 }
 .wrap-container-1 {
     width: 1225px;
